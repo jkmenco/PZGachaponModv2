@@ -1,0 +1,5 @@
+version=2
+title=Gachapon Mod V2
+description=Este mod agrega la emoción de abrir cajas de gachapon al juego. ¡Obtén objetos sorpresa al interactuar con estas cajas en el mundo del juego!
+tags=gameplay, items, surprise
+visibility=public

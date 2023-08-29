@@ -1,0 +1,17 @@
+module Gachapon
+{
+    imports
+    {
+        Base
+    }
+
+    recipe Open Gachapon Box
+    {
+        Gachapon_box,
+        Result:Base.Pistol,
+        removeResult:true,
+        Sound:PutItemInBag, 
+        OnCreate:myfunc, 
+        Time:5.0,
+    }
+}

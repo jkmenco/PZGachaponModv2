@@ -1,0 +1,4 @@
+ItemName_EN = {
+	ItemName_Gachapon.Gachapon_box = "Gachapon Box",
+	ItemName_Gachapon.Gachapon_Mystery_item = "Mystery Item",
+}

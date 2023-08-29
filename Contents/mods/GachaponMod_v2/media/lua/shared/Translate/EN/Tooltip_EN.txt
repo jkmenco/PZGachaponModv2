@@ -1,0 +1,4 @@
+Tooltip_EN = {
+	Tooltip_Gachapon_box = "You can open and discover the surprises inside.",
+	Tooltip_Gachapon_Mystery_item = "what will it be?",
+}

@@ -1,0 +1,38 @@
+module Gachapon
+{
+    imports
+    {
+        Base
+    }
+
+    item Gachapon_box
+    {
+        DisplayCategory = Container,
+        Weight = 0.5,
+        Type = Normal,
+        DisplayName = Gachapon box,
+        Icon = Gachapon_box, -- Asegúrate de que haya un archivo de imagen llamado "Gachapon_box.png"
+        Tooltip = Tooltip_Gachapon_box,
+    }
+
+    item Mystery_item
+    {
+        DisplayCategory = Normal,
+        Weight = 0.1,
+        Type = Normal,
+        DisplayName = Mystery item,
+        Icon = Gachapon_Mystery_item, -- Asegúrate de que haya un archivo de imagen llamado "Gachapon_Mystery_item.png"
+        Tooltip = Tooltip_Gachapon_Mystery_item,
+    }
+
+    item item_name
+    {
+        DisplayCategory = category_in_string,
+        Weight = weight_in_double,
+        Type = type_in_string,
+        DisplayName = item name,
+        Icon = icon_image_png_name,
+        Tooltip = tooltip_name,
+    }
+
+}
