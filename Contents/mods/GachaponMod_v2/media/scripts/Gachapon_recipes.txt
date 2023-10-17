@@ -14,4 +14,26 @@ module Gachapon
         OnCreate:myfunc, 
         Time:5.0,
     }
+
+    
+    recipe recipe_name
+    {
+        item_need,
+        Result:item_necessary,
+        removeResult:true,
+        Sound:PutItemInbag,
+        OnCreate:myFunc,
+        Time:5.0,
+    }
+
+
+        recipe recipe_name
+        {
+            item_need,
+            Result:item_necessary,
+            removeResult:true,
+            Sound:PutItemInbag,
+            OnCreate:myFunc,
+            Time:5.0,
+        }
 }
